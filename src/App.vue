@@ -16,7 +16,7 @@
             </li>
             <li class="nav-item" href="#">
               <router-link :to="{ name: 'Contact' }" class="nav-link">
-                <a href="#" class="text-light">Contact</a>
+                <a class="text-light">Contact</a>
               </router-link>
             </li>
           </ul>
