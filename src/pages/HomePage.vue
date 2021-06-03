@@ -1,9 +1,17 @@
 <template>
-  <div class="home d-flex flex-column align-items-center justify-content-center">
-    <img src="https://bcw.blob.core.windows.net/public/img/8600856373152463" alt="CodeWorks Logo">
-    <h1 class="my-5 bg-dark text-light p-3 rounded d-flex align-items-center">
-      <span class="mx-2 text-white">Vue 3 Starter</span>
-    </h1>
+  <div class="home flex-grow-1 d-flex flex-column justify-content-center">
+    <div class="row justify-content-center">
+      <div class="col-10 col-md-5 card bg-card">
+        <h2 class="text-light">
+          About Me
+        </h2>
+        <p class="text-light mt-3 mb-4">
+          Hello, I'm a developer in Boise, Idaho and am learning software development at Codeworks.
+          My stack includes Vanilla Javascript, Vue.js, Bootstrap, Node.js, Mongoose/MongoDb, C# .NET, and MySQL.
+          I consider myself a passionate problem solver and I love the continuous learning that comes with programming.
+        </p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,11 +23,10 @@ export default {
 
 <style scoped lang="scss">
 .home{
-  text-align: center;
   user-select: none;
-  > img{
-    height: 200px;
-    width: 200px;
-  }
+}
+
+.bg-card {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 </style>

@@ -92,6 +92,6 @@ a:hover {
 }
 
 .bg-navbar {
-  background-color: var(--dark) !important;
+  background-color: #42464b!important;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <main class="flex-column">
     <div class="container-fluid">
-      <div class="row bg-dark justify-content-center">
+      <div class="row bg-navbar justify-content-center">
         <div class="col-12 col-md-10 d-flex justify-content-center">
           <ul class="nav nav-tabs">
             <li class="nav-item" href="#">
@@ -23,12 +23,12 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div id="app" class="container-fluid">
       <router-view />
     </div>
   </main>
   <footer>
-    <div class="bg-dark text-light text-center p-4">
+    <div class="bg-navbar text-light text-center p-4">
       Made by Ethan Boone
     </div>
   </footer>
@@ -70,4 +70,16 @@ a:hover {
   color: var(--secondary);
 }
 
+.bg-navbar {
+  background-color: var(--dark);
+}
+
+#app {
+  background-image: url("./assets/img/portfolio.jpg");
+  background-size: cover;
+}
+
+img{
+  filter: grayscale(100%);
+}
 </style>
