@@ -1,7 +1,7 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column justify-content-center">
     <div class="row justify-content-center">
-      <div class="col-10 col-md-5 card bg-card">
+      <div class="col-10 col-md-5 card bg-card shadow">
         <h2 class="text-light">
           About Me
         </h2>

@@ -4,12 +4,12 @@
       <div class="row my-5 justify-content-center">
         <div class="d-flex col-10 col-md-8 pl-0 mx-0">
           <div class="mx-0">
-            <h2 class="d-flex card bg-card p-2 mb-0 ml-0 text-light">
+            <h2 class="d-flex card bg-card p-2 mb-0 ml-0 text-light shadow">
               Contact
             </h2>
           </div>
         </div>
-        <div class="col-10 col-md-8 card bg-card text-light py-4">
+        <div class="col-10 col-md-8 card bg-card text-light py-4 shadow">
           <p>
             Feel free to connect with me on LinkedIn or follow my github profile!
             <br>
